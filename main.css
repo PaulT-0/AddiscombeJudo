@@ -5,6 +5,9 @@ body{
 b{
     font-weight: 600;
 }
+p{
+    color: #333;
+}
 div{
     width: 100%;
 }
@@ -41,7 +44,7 @@ div{
     color: #fff;
     height: 600px;
     position:relative;
-    background-image: url(https://scontent-lcy1-1.xx.fbcdn.net/v/t39.30808-6/240721553_308364784418764_8697482291574582476_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=tWfVlKJ8PO0AX85qFIK&_nc_ht=scontent-lcy1-1.xx&oh=ca4b641639d0ee7c10f7361ba82effa9&oe=61B437D7);
+    background-image: url(assets/HomeBackground.jpg );
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,6 +60,7 @@ div{
 }
 .HomeContainer *{
     z-index: 0;
+    color: #fff;
 }
 .Container{
     width: 100%;
@@ -101,4 +105,18 @@ div{
     list-style-position: outside;
     text-align: left;
     padding-left: 5px;
+}
+.Socials{
+    position:fixed;
+    left:20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.Socials a{
+    color:inherit;
+}
+.Socials a:hover{
+    font-size: 22px;
 }
